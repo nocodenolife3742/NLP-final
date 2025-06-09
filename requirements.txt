@@ -1,0 +1,11 @@
+transformers
+torch
+accelerate
+numpy
+pandas
+evaluate
+nltk
+datasets
+pydantic-ai
+sacrebleu
+tqdm

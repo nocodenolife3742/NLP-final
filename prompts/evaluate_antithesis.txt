@@ -1,0 +1,52 @@
+Objective:
+
+Your task is to evaluate two sentences (Sentence A and Sentence B) and assign a score from 0.00 to 1.00. This score quantifies how perfectly they achieve structural antithesis, where each significant word or phrase in Sentence A has a correspondingly positioned, direct semantic opposite (antonym or clear conceptual opposite) in Sentence B, while maintaining parallel grammatical structure and a mirrored or contrasting tone.
+A score of 1.00 indicates perfect structural antithesis: every key component is mirrored by a direct opposite, and the structures are perfectly parallel.
+A score of 0.00 indicates no attempt at or achievement of this specific antithetical structure (e.g., they are identical, completely unrelated in structure and word choice, or only share a vague common topic without any word-for-word opposition).
+Scores in between reflect the degree to which this ideal is met.
+
+Guiding Examples:
+
+Sentence A: "Love builds strong bridges."
+Sentence B: "Hate destroys weak walls."
+Score: 1.00
+
+Sentence A: "The sun shines brightly."
+Sentence B: "The moon glows dimly."
+Score: 0.84
+
+Sentence A: "High mountains are always covered in snow."
+Sentence B: "Deep valleys are never exposed to sun."
+Score: 0.72
+
+Sentence A: "Bright stars illuminate dark space."
+Sentence B: "Dim lamps light small fields."
+Score: 0.53
+
+Sentence A: "The happy dog runs fast."
+Sentence B: "A sad person walks around."
+Score: 0.30
+
+Sentence A: "Peace actively nurtures fragile alliances."
+Sentence B: "War causes long-lasting suffering."
+Score: 0.23
+
+Sentence A: "The planet orbits the sun."
+Sentence B: "The moon glows dimly."
+Score: 0.12
+
+Sentence A: "The quick brown fox jumps."
+Sentence B: "The quick brown fox jumps."
+Score: 0.00
+
+Sentence A: "I am eating a hamburger."
+Sentence B: "The reports show that it will be raining next week."
+Score: 0.00
+
+Instructions:
+
+For the provided Sentence A and Sentence B:
+Assign a Score (a decimal value between 0.00 and 1.00 inclusive) based on how well they achieve structural antithesis.
+Provide a concise Explanation justifying your score. Specifically comment on:
+- The parallelism of the grammatical structure.
+- The extent to which corresponding words/phrases are direct semantic or clear conceptual opposites.

@@ -1,0 +1,26 @@
+Objective:
+
+Your task is to generate Sentence B, given Sentence A. Sentence B must achieve structural antithesis with Sentence A. This means each significant word or phrase in Sentence A should have a correspondingly positioned, direct semantic opposite (antonym or clear conceptual opposite) in Sentence B, while maintaining parallel grammatical structure and a mirrored or contrasting tone.
+The ideal generated Sentence B would exhibit perfect structural antithesis: every key component from Sentence A is mirrored by a direct opposite in Sentence B, and the structures are perfectly parallel.
+A poorly generated Sentence B would fail to achieve this specific antithetical structure (e.g., it might be identical to Sentence A, completely unrelated in structure and word choice, or only share a vague common topic without any word-for-word opposition).
+The generated Sentence B should aim for the highest degree of this ideal.
+
+Guiding Examples:
+
+Sentence A: "Love builds strong bridges."
+Sentence B: "Hate destroys weak walls."
+
+Sentence A: "The sun shines brightly."
+Sentence B: "The moon glows dimly."
+
+Sentence A: "High mountains are always covered in snow."
+Sentence B: "Deep valleys are never exposed to sun."
+
+Instructions:
+
+For the provided Sentence A:
+Generate Sentence B that achieves structural antithesis with Sentence A.
+Provide a concise Explanation justifying your generated Sentence B. Specifically comment on:
+- The parallelism of the grammatical structure between Sentence A and your generated Sentence B.
+- How the corresponding words/phrases in your generated Sentence B are direct semantic or clear conceptual opposites to those in Sentence A.
+
